@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.movie{
+    width: 250px;
+    height: 350px;
+    background-color: rgb(40, 223, 177);
+    margin: 1rem;
+    border-radius: 5px;
+    box-sizing: border-box;
+    position: relative;
+   
+  
+   
+}
+.movie .poster{
+    width: 100%;
+    height: 250px;
+    
+}
+.movie .detalles_peliculas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+
+}
+.detalles_peliculas .box{
+
+padding: 1rem;
+display:flex ;
+align-items: center;
+justify-content: space-around;
+
+}
+.detalles_peliculas .titulo{
+    width: 160px;
+    
+    align-items: center; 
+   
+}
+.years{
+background-color: rgba(227, 231, 240, 0.767);
+   width: 80px;
+   height: 50px;
+border-radius: 60px;
+display: flex;
+justify-content: center;
+align-items: center; 
+font-weight: bold;  
+border: 1px solid  rgba(227, 231, 240, 0.767) ;
+box-shadow: inset 0 5px 5px rgb(20, 20, 20);
+position: absolute;
+right: 8px;
+bottom: 8px;
+
+}
